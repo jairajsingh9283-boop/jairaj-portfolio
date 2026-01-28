@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jairaj Singh | Personal Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Jairaj Singh</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="certifications.html">Certifications</a></li>
+      <li><a href="career.html">Career</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="container">
+  <h2>Welcome</h2>
+  <p>
+    Hello, I’m Jairaj Singh — a student with a strong academic background in science and
+    computer science, and a keen interest in computing systems and software technologies.
+  </p>
+
+  <p>
+    This website is my personal space to document my academic journey, technical skills,
+    certifications, and learning interests as I continue to grow in the field of computing.
+  </p>
+</div>
+
+<footer>
+  © 2026 Jairaj Singh | Personal Academic & Technical Portfolio
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Academic Background | Jairaj Singh</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Jairaj Singh</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="certifications.html">Certifications</a></li>
+      <li><a href="career.html">Career</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="container">
+  <h2>Academic Background</h2>
+
+  <p><strong>Class 12 – CBSE Board</strong></p>
+  <ul>
+    <li>School: Greenfield Academy</li>
+    <li>Stream: Science</li>
+    <li>Score: 95.60%</li>
+  </ul>
+
+  <p>
+    Subjects studied included Physics, Chemistry, Mathematics, Computer Science,
+    English, and Physical Education.
+  </p>
+
+  <p><strong>Class 10 – CBSE Board</strong></p>
+  <ul>
+    <li>School: Ajmani International School</li>
+    <li>Score: 92.6%</li>
+  </ul>
+</div>
+
+<footer>
+  © 2026 Jairaj Singh
+</footer>
+
+</body>
+</html>

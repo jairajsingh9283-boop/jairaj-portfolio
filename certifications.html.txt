@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jairaj Singh | Computing Systems Technology Applicant</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Jairaj Singh</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="container">
+  <h2>Welcome</h2>
+  <p>
+    I am Jairaj Singh, an Indian student with a strong academic background in science and computer science.
+    I have applied for the <strong>Computing Systems Technology (Co-op) – 3 Year Diploma</strong> at
+    the <strong>College of the North Atlantic, Canada</strong>.
+  </p>
+
+  <p>
+    This website has been created to present my academic background, technical interests,
+    certifications, and career goals in a structured and transparent manner to support my
+    application and study plans.
+  </p>
+</div>
+
+<footer>
+  © 2026 Jairaj Singh | Academic Portfolio
+</footer>
+
+</body>
+</html>

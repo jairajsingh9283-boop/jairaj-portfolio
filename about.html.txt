@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me | Jairaj Singh</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Jairaj Singh</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="certifications.html">Certifications</a></li>
+      <li><a href="career.html">Career</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="container">
+  <h2>About Me</h2>
+
+  <p>
+    I am a recent high school graduate from India with a strong interest in computer systems,
+    information technology, and software development.
+  </p>
+
+  <p>
+    My interest in computing started through formal education and gradually expanded through
+    self-learning, online courses, and hands-on practice in programming and web development.
+  </p>
+
+  <p>
+    I enjoy understanding how systems work behind the scenes and continuously seek opportunities
+    to strengthen my technical foundation.
+  </p>
+</div>
+
+<footer>
+  © 2026 Jairaj Singh
+</footer>
+
+</body>
+</html>

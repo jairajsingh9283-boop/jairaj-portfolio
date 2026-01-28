@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certifications | Jairaj Singh</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Jairaj Singh</h1>
+  </nav>
+</header>
+
+<div class="container">
+  <h2>Certifications</h2>
+
+  <ul>
+    <li>Technical Support Fundamentals – Coursera</li>
+    <li>The Bits and Bytes of Computer Networking – Coursera</li>
+    <li>Operating Systems and You: Becoming a Power User – Coursera</li>
+    <li>System Administration and IT Infrastructure Services – Coursera</li>
+  </ul>
+</div>
+
+<footer>
+  © 2026 Jairaj Singh
+</footer>
+
+</body>
+</html>

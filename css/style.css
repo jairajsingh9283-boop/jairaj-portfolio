@@ -1,15 +1,11 @@
-/* =====================
-   RESET
-===================== */
+/* ========= RESET ========= */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* =====================
-   BASE
-===================== */
+/* ========= BASE ========= */
 body {
   font-family: "Segoe UI", Roboto, Arial, sans-serif;
   background-color: #f4f6f9;
@@ -18,10 +14,8 @@ body {
   line-height: 1.7;
 }
 
-/* =====================
-   HEADER
-===================== */
-header {
+/* ========= HEADER ========= */
+.site-header {
   background-color: #1f3c88;
   color: white;
 }
@@ -36,46 +30,38 @@ header {
   position: relative;
 }
 
-header h1 {
+.logo {
   font-size: 24px;
   font-weight: 600;
 }
 
-/* =====================
-   NAV
-===================== */
-nav ul {
-  list-style: none;
+/* ========= NAV (DESKTOP) ========= */
+.nav {
   display: flex;
   gap: 20px;
 }
 
-nav a {
+.nav a {
   color: white;
   text-decoration: none;
   font-size: 16px;
 }
 
-nav a:hover {
+.nav a:hover {
   text-decoration: underline;
 }
 
-/* =====================
-   HAMBURGER
-===================== */
-#menu-toggle {
+/* ========= MENU BUTTON ========= */
+.menu-btn {
   display: none;
-}
-
-.menu-icon {
-  display: none;
+  background: none;
+  border: none;
+  color: white;
   font-size: 28px;
   cursor: pointer;
 }
 
-/* =====================
-   MAIN
-===================== */
+/* ========= MAIN ========= */
 main {
   max-width: 900px;
   margin: 60px auto;
@@ -92,9 +78,7 @@ p {
   margin-bottom: 18px;
 }
 
-/* =====================
-   FOOTER
-===================== */
+/* ========= FOOTER ========= */
 footer {
   background-color: #1f3c88;
   color: white;
@@ -103,39 +87,34 @@ footer {
   font-size: 14px;
 }
 
-/* =====================
-   MOBILE DROPDOWN
-===================== */
+/* ========= MOBILE ========= */
 @media (max-width: 768px) {
 
   body {
     font-size: 17px;
   }
 
-  .menu-icon {
+  .menu-btn {
     display: block;
   }
 
-  nav {
+  .nav {
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #1f3c88;
     width: 100%;
-    display: none;
-  }
-
-  nav ul {
+    background-color: #1f3c88;
     flex-direction: column;
-    padding: 10px 0;
   }
 
-  nav li {
-    padding: 10px 20px;
+  .nav a {
+    padding: 12px 20px;
+    border-top: 1px solid rgba(255,255,255,0.15);
   }
 
-  #menu-toggle:checked + .menu-icon + nav {
-    display: block;
+  .nav.show {
+    display: flex;
   }
 
   main {

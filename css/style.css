@@ -1,49 +1,59 @@
 /* =====================
-   GLOBAL RESET
+   RESET
 ===================== */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 /* =====================
-   BASE STYLES
+   BASE
 ===================== */
 body {
-  margin: 0;
   font-family: "Segoe UI", Roboto, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.7;
-  background-color: #f5f7fa;
+  background-color: #f4f6f9;
   color: #222;
+  line-height: 1.7;
+  font-size: 18px;
 }
 
 /* =====================
-   HEADER & NAVBAR
+   HEADER
 ===================== */
 header {
   background-color: #1f3c88;
-  padding: 16px 40px;
+  color: white;
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: auto;
+  padding: 16px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
-  margin: 0;
-  font-size: 26px;
-  color: #ffffff;
+  font-size: 24px;
   font-weight: 600;
 }
 
-nav {
+/* =====================
+   NAVBAR
+===================== */
+nav ul {
+  list-style: none;              /* 🔥 removes bullets */
   display: flex;
-  gap: 20px;
+  gap: 18px;
 }
 
 nav a {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 nav a:hover {
@@ -60,7 +70,7 @@ main {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 30px;
   color: #1f3c88;
   margin-bottom: 20px;
 }
@@ -74,25 +84,14 @@ p {
 ===================== */
 footer {
   background-color: #1f3c88;
-  color: #ffffff;
+  color: white;
   text-align: center;
-  padding: 14px 10px;
+  padding: 12px;
   font-size: 14px;
 }
 
 /* =====================
-   LINKS
-===================== */
-a {
-  color: #1f3c88;
-}
-
-a:hover {
-  opacity: 0.85;
-}
-
-/* =====================
-   MOBILE RESPONSIVE
+   MOBILE FIX
 ===================== */
 @media (max-width: 768px) {
 
@@ -100,31 +99,22 @@ a:hover {
     font-size: 17px;
   }
 
-  header {
+  .header-inner {
     flex-direction: column;
     align-items: flex-start;
-    padding: 14px 20px;
+    gap: 12px;
   }
 
-  header h1 {
-    font-size: 22px;
-    margin-bottom: 10px;
-  }
-
-  nav {
+  nav ul {
     flex-wrap: wrap;
     gap: 12px;
   }
 
-  nav a {
-    font-size: 16px;
+  h2 {
+    font-size: 24px;
   }
 
   main {
     margin: 40px auto;
-  }
-
-  h2 {
-    font-size: 24px;
   }
 }

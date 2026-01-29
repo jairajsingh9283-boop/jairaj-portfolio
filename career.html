@@ -43,9 +43,20 @@
   </p>
 </div>
 
-<footer>
-  © 2026 Jairaj Singh | Academic Portfolio
-</footer>
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Jairaj Singh · Personal Academic & Technical Portfolio
+  </footer>
+
+  <!-- MENU SCRIPT (REQUIRED) -->
+  <script>
+    const menuBtn = document.getElementById("menuBtn");
+    const navMenu = document.getElementById("navMenu");
+
+    menuBtn.addEventListener("click", () => {
+      navMenu.classList.toggle("show");
+    });
+  </script>
 
 </body>
 </html>

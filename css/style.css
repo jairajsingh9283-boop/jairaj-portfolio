@@ -184,3 +184,82 @@ footer {
     font-size: 28px;
   }
 }
+/* ================= MODERN HERO ================= */
+
+.hero-modern {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 90vh;
+  padding: 60px 8%;
+  background-color: #f5f2ea;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-left h1 {
+  font-size: 56px;
+  color: #0e1a2b;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-left h1 span {
+  background-color: #e8dfcf;
+  padding: 0 10px;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #555;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  display: inline-block;
+  background-color: #ff8c42;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background-color: #e6772e;
+}
+
+.hero-right {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-right img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ============ MOBILE ============ */
+
+@media (max-width: 992px) {
+  .hero-modern {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 36px;
+  }
+
+  .hero-left p {
+    margin: 0 auto 30px;
+  }
+
+  .hero-right {
+    margin-top: 40px;
+  }
+}

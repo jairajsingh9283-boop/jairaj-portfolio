@@ -84,7 +84,7 @@ footer {
 }
 
 /* ========= MOBILE ========= */
-@media  {
+@media (max-width: 768px) {
 
   body {
     font-size: 17px;
@@ -115,8 +115,7 @@ footer {
 
   /* 🔥 MAIN CONTENT FIX */
   main {
-    margin: 32px auto;
-    padding: 0 24px;     /* THIS fixes left-side cramped text */
+  \    /* THIS fixes left-side cramped text */
   }
 
   h2 {

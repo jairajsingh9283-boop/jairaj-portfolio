@@ -84,7 +84,7 @@ footer {
 }
 
 /* ========= MOBILE ========= */
-@media (max-width: 768px) {
+@media  {
 
   body {
     font-size: 17px;

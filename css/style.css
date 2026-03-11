@@ -250,3 +250,20 @@ footer {
     margin-top: 40px;
   }
 }
+.typing-text{
+font-size:20px;
+color:#555;
+min-height:28px;
+}
+
+#typing::after{
+content:"|";
+animation:blink 1s infinite;
+margin-left:5px;
+}
+
+@keyframes blink{
+0%{opacity:1;}
+50%{opacity:0;}
+100%{opacity:1;}
+}

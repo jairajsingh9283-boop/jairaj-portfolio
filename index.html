@@ -1,74 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Jairaj Singh | Portfolio</title>
-
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jairaj Singh | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<!-- HEADER -->
-<header class="site-header">
-  <div class="header-inner">
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="logo">Jairaj Singh</h1>
 
-    <div class="logo">Jairaj Singh</div>
-
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="academics.html">Academics</a>
-      <a href="skills.html">Skills</a>
-      <a href="certifications.html">Certifications</a>
-      <a href="career.html">Career</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-
-    <button class="menu-btn">☰</button>
-
-  </div>
-</header>
-
-
-<!-- HERO SECTION -->
-<section class="hero">
-
-  <div class="hero-container">
-
-    <div class="hero-text">
-
-      <h1>
-        Hi, my <br>
-        name is <span>Jairaj</span>.
-      </h1>
-
-      <p>
-        I am passionate about computing systems, software development,
-        and building strong technical foundations for the future.
-      </p>
-
-      <a href="about.html" class="hero-btn">
-        About Me
-      </a>
-
+      <button class="menu-btn" id="menuBtn">☰</button>
+a
+      <nav class="nav" id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="academics.html">Academics</a>
+        <a href="skills.html">Skills</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="career.html">Career</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <div class="hero-image">
-      <img src="assets/hero.png" alt="Developer Illustration">
-    </div>
+  <!-- MAIN CONTENT -->
+  <main>
+   <section class="hero-modern">
+  <div class="hero-left">
+    <h1>
+      Hi, my <br>
+      name is <span>Jairaj</span>.
+    </h1>
+    <p>
+      I am passionate about computing systems, software development,
+      and building strong technical foundations for the future.
+    </p>
 
+    <a href="about.html" class="hero-btn">About Me</a>
   </div>
 
+  <div class="hero-right">
+    <img src="assets/hero.png" alt="Developer Illustration">
+  </div>
 </section>
 
 
-<!-- FOOTER -->
-<footer>
-© 2026 Jairaj Singh | Personal Academic & Technical Portfolio
-</footer>
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Jairaj Singh · Personal Academic & Technical Portfolio
+  </footer>
+
+  <!-- SIMPLE JS FOR DROPDOWN -->
+  <script>
+    const menuBtn = document.getElementById("menuBtn");
+    const navMenu = document.getElementById("navMenu");
+
+    menuBtn.addEventListener("click", () => {
+      navMenu.classList.toggle("show");
+    });
+  </script>
 
 </body>
 </html>

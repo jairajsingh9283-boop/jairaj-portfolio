@@ -6,7 +6,51 @@
   <title>Jairaj Singh | Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
+<script>
+const words = [
+"Computing Systems Technology",
+"Software Development",
+"Networking",
+"Cybersecurity Fundamentals",
+"Modern Technology"
+];
 
+let i = 0;
+let j = 0;
+let currentWord = "";
+let isDeleting = false;
+
+function type() {
+
+currentWord = words[i];
+
+if(isDeleting){
+j--;
+}else{
+j++;
+}
+
+document.getElementById("typing").textContent = currentWord.substring(0,j);
+
+if(!isDeleting && j === currentWord.length){
+isDeleting = true;
+setTimeout(type,1200);
+return;
+}
+
+if(isDeleting && j === 0){
+isDeleting = false;
+i++;
+if(i === words.length){
+i = 0;
+}
+}
+
+setTimeout(type, isDeleting ? 50 : 100);
+}
+
+type();
+</script>
 <body>
 
   <!-- HEADER -->
@@ -15,7 +59,6 @@
       <h1 class="logo">Jairaj Singh</h1>
 
       <button class="menu-btn" id="menuBtn">☰</button>
-a
       <nav class="nav" id="navMenu">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -35,11 +78,11 @@ a
     <h1>
       Hi, my <br>
       name is <span>Jairaj</span>.
+
     </h1>
-    <p>
-      I am passionate about computing systems, software development,
-      and building strong technical foundations for the future.
-    </p>
+  <p class="typing-text">
+  <span id="typing"></span>
+</p>
 
     <a href="about.html" class="hero-btn">About Me</a>
   </div>

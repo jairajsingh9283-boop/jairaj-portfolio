@@ -14,45 +14,35 @@ body {
   line-height: 1.7;
 }
 
-/* ===== MODERN HEADER ===== */
+/* ===== CLEAN BLACK HEADER ===== */
 
 .site-header {
-  position: absolute; /* sits on top of hero */
+  background-color: #111;   /* black */
   width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 100;
 }
 
 .header-inner {
   max-width: 1200px;
   margin: auto;
-  padding: 20px 40px;
+  padding: 18px 40px;
 
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
-/* Logo */
-.logo {
-  font-size: 22px;
-  font-weight: 600;
-  color: white;
-}
-
-/* Nav right side */
+/* NAV on LEFT */
 .nav {
   display: flex;
   gap: 30px;
 }
 
+/* Links */
 .nav a {
   text-decoration: none;
   color: white;
   font-size: 15px;
   font-weight: 500;
-  opacity: 0.9;
+  opacity: 0.85;
   transition: 0.3s;
 }
 
@@ -60,6 +50,18 @@ body {
   opacity: 1;
 }
 
+/* ===== MOBILE ===== */
+
+@media (max-width: 768px) {
+  .header-inner {
+    padding: 15px 20px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
 /* ===== MOBILE ===== */
 
 @media (max-width: 768px) {

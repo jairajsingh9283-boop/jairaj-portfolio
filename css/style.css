@@ -17,7 +17,7 @@ body {
 /* ===== CLEAN BLACK HEADER ===== */
 
 .site-header {
-  background-color: #f5f2ea;   /* black */
+  background-color: #f5f2ea;   
   width: 100%;
 }
 
@@ -39,7 +39,7 @@ body {
 /* Links */
 .nav a {
   text-decoration: none;
-  color: white;
+  color:#0e1a2b;
   font-size: 15px;
   font-weight: 500;
   opacity: 0.85;

@@ -384,37 +384,46 @@ li {
 .view-link:hover {
     text-decoration: underline;
 }
-/* Container to push everything to the left but keep it tidy */
+/* Container for the left-aligned look */
 .about-section {
     text-align: left;
-    max-width: 900px; /* Limits width so lines aren't too long to read */
-    margin-left: 8%;  /* Creates that nice left-side alignment */
-    padding: 60px 20px;
-    font-family: 'Inter', sans-serif; /* Or your preferred clean font */
+    max-width: 950px; /* Prevents lines from getting too long to read */
+    margin-left: 8%;  /* Creates a modern asymmetrical feel */
+    padding: 100px 20px;
 }
 
-/* Big, Bold, Black Heading */
+/* Massive, Black, Bold Heading */
 .about-section h1 {
     color: #000000;
-    font-size: 4.5rem; /* Large impact size */
+    font-size: 5.5rem; /* Large impact */
     font-weight: 900;
-    letter-spacing: -2px;
-    margin-bottom: 40px;
-    text-transform: capitalize;
+    letter-spacing: -4px;
+    margin-bottom: 50px;
+    text-transform: lowercase; /* Professional minimalist style */
 }
 
-/* Bigger, readable body text */
+/* Bigger, clean body text */
 .about-content p {
-    color: #333;
-    font-size: 1.3rem; /* Larger than standard for better readability */
-    line-height: 1.8;   /* Adds space between lines */
-    margin-bottom: 25px;
+    color: #1a1a1a;
+    font-size: 1.5rem; /* Significant size increase for readability */
+    line-height: 1.8;
+    margin-bottom: 35px;
+    font-weight: 400;
 }
 
-/* Optional: Subtle accent for your location or key stats */
+/* Orange accent for key technical terms */
 .highlight {
-    color: #ff6b00; /* Keeping your signature orange */
-    font-weight: bold;
+    color: #000;
+    font-weight: 800;
+    border-bottom: 4px solid #ff6b00; /* Signature orange underline */
+}
+
+/* Styling the stats to make them pop */
+.about-content strong {
+    font-weight: 800;
+    color: #000;
+    background-color: #f8f8f8; /* Very subtle box behind the numbers */
+    padding: 2px 6px;
 }
 /* Main container for the Academics page */
 .academics-container {

@@ -344,57 +344,43 @@ margin-left:5px;
   font-size: 20px;
   cursor: pointer;
 }
-.content-container {
-    max-width: 800px;  /* Keeps the text from stretching too wide */
-    margin: 0 auto;    /* Centers the block on the page */
-    padding: 40px 20px; /* Adds space so text doesn't touch the screen edges */
-    text-align: left;  /* Keeps the actual text readable */
-}
-h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    letter-spacing: -1px; /* Gives it that modern, tight look */
-    border-bottom: 2px solid #ff8c42; /* A little accent line under the title */
-    display: inline-block;
-}
-
-p {
-    font-size: 1.1rem;
-    line-height: 1.8; /* Adds "Air" between lines of text */
-    margin-bottom: 1.5rem;
-    color: #e2e8f0; /* Softens the text color slightly for a premium feel */
-}
-/* 1. Center everything and give it a professional width */
-.about-content {
-    max-width: 900px;
-    margin: 80px auto; /* Centers the whole block and moves it down from the nav */
-    padding: 0 40px;
+/* Container for left alignment and spacing */
+.certifications-container {
     text-align: left;
+    max-width: 800px; /* Prevents text from stretching too wide on desktop */
+    margin-left: 10%; /* Provides a nice "gutter" on the left */
+    padding: 40px 0;
 }
 
-/* 2. Make the Heading bold and "Cyber" looking */
+/* Make "Certifications" text black and bigger */
 h1 {
-    font-size: 3.5rem;
+    color: #000000;
+    font-size: 3.5rem; /* Significant size increase */
     font-weight: 800;
-    color: #2563eb; /* Match that strong blue from your Home page title */
-    margin-bottom: 10px;
-    letter-spacing: -2px;
+    margin-bottom: 20px;
 }
 
-/* 3. FIX THE TEXT - It's currently too hard to read */
-p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    color: #1e293b; /* Make it a darker, stronger grey/black for contrast */
-    font-weight: 500;
-    margin-bottom: 25px;
-    max-width: 700px; /* Prevents lines from being too long to read */
+/* Style the list for better readability */
+ul {
+    list-style-type: none; /* Removes default dots for a modern look */
+    padding-left: 0;
 }
 
-/* 4. Add the orange accent line you like */
-.accent-line {
-    width: 60px;
-    height: 4px;
-    background-color: #ff8c42; /* Your signature orange */
-    margin-bottom: 30px;
+li {
+    margin-bottom: 30px; /* Space between each certification */
+    font-size: 1.4rem; /* Makes the course titles bigger */
+}
+
+/* Style the links to look like buttons or clear calls-to-action */
+.view-link {
+    display: block;
+    font-size: 1rem;
+    color: #ff6b00; /* Keeps your accent color for links */
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.view-link:hover {
+    text-decoration: underline;
 }

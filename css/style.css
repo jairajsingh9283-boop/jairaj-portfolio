@@ -364,3 +364,37 @@ p {
     margin-bottom: 1.5rem;
     color: #e2e8f0; /* Softens the text color slightly for a premium feel */
 }
+/* 1. Center everything and give it a professional width */
+.about-content {
+    max-width: 900px;
+    margin: 80px auto; /* Centers the whole block and moves it down from the nav */
+    padding: 0 40px;
+    text-align: left;
+}
+
+/* 2. Make the Heading bold and "Cyber" looking */
+h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #2563eb; /* Match that strong blue from your Home page title */
+    margin-bottom: 10px;
+    letter-spacing: -2px;
+}
+
+/* 3. FIX THE TEXT - It's currently too hard to read */
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #1e293b; /* Make it a darker, stronger grey/black for contrast */
+    font-weight: 500;
+    margin-bottom: 25px;
+    max-width: 700px; /* Prevents lines from being too long to read */
+}
+
+/* 4. Add the orange accent line you like */
+.accent-line {
+    width: 60px;
+    height: 4px;
+    background-color: #ff8c42; /* Your signature orange */
+    margin-bottom: 30px;
+}

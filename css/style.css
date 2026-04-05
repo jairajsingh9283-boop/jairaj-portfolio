@@ -416,3 +416,169 @@ li {
     color: #ff6b00; /* Keeping your signature orange */
     font-weight: bold;
 }
+/* Main container for the Academics page */
+.academics-container {
+    text-align: left;
+    max-width: 900px;
+    margin-left: 8%; /* Aligns with your About/Certifications layout */
+    padding: 60px 20px;
+}
+
+/* Big, Bold, Black Title */
+.academics-container h1 {
+    color: #000000;
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+    letter-spacing: -1.5px;
+}
+
+/* Individual Academic Block */
+.edu-item {
+    border-left: 4px solid #000000; /* Vertical line for a timeline feel */
+    padding-left: 30px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+/* Grade/Score highlight */
+.score-badge {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #ff6b00; /* Your accent color */
+    display: block;
+    margin-top: 10px;
+}
+
+/* School and Stream text */
+.edu-item h2 {
+    font-size: 1.8rem;
+    color: #000;
+    margin: 0 0 5px 0;
+}
+
+.edu-item p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+/* Container alignment */
+.skills-container {
+    text-align: left;
+    max-width: 1000px;
+    margin-left: 8%;
+    padding: 60px 20px;
+}
+
+/* Big, Bold, Black Title */
+.skills-container h1 {
+    color: #000000;
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 40px;
+    text-transform: lowercase; /* Matches your current style but bigger */
+}
+
+/* Skill Grouping */
+.skill-category {
+    margin-bottom: 40px;
+}
+
+.skill-category h2 {
+    font-size: 1.8rem;
+    color: #000;
+    border-bottom: 3px solid #ff6b00; /* Orange accent line */
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* Larger Skill Items */
+.skill-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-list li {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.skill-list li::before {
+    content: "→";
+    color: #ff6b00;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+/* The footer text */
+.skills-footer {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 50px;
+    border-left: 2px solid #ddd;
+    padding-left: 20px;
+}
+/* Container alignment to match the rest of your site */
+.contact-container {
+    text-align: left;
+    max-width: 900px;
+    margin-left: 8%;
+    padding: 80px 20px;
+}
+
+/* Massive, Bold, Black Title */
+.contact-container h1 {
+    color: #000000;
+    font-size: 5rem; /* Even bigger for the final page */
+    font-weight: 900;
+    margin-bottom: 30px;
+    letter-spacing: -3px;
+}
+
+/* Sub-heading text */
+.contact-container p {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 40px;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* Big, Clickable Email Link */
+.email-link {
+    font-size: 2rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    border-bottom: 5px solid #ff6b00; /* Thick orange underline */
+    transition: all 0.3s ease;
+}
+
+.email-link:hover {
+    color: #ff6b00;
+    border-bottom: 5px solid #000;
+}
+
+/* Social links or secondary contact info */
+.social-links {
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+.social-links a {
+    color: #888;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.social-links a:hover {
+    color: #000;
+}

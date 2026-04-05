@@ -67,6 +67,26 @@
     });
   </script>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <div id="cert-popup" class="side-popup">
+  <p>Check out my expertise!</p>
+  <a href="certifications.html" class="popup-link">View Certifications →</a>
+  <button onclick="closePopup()" class="close-btn">&times;</button>
+  <script>
+      window.onscroll = function() {
+        const popup = document.getElementById('cert-popup');
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+          popup.classList.add('active');
+        }
+      };
+
+      function closePopup() {
+        const popup = document.getElementById('cert-popup');
+        popup.style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
+</div>
 </body>
 </html>
 <script>

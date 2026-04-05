@@ -309,3 +309,38 @@ margin-left:5px;
 50%{opacity:0;}
 100%{opacity:1;}
 }
+.side-popup {
+  position: fixed;
+  bottom: 30px;
+  right: -300px; /* Hidden off-screen to the right */
+  width: 250px;
+  background-color: #ff8c42; /* Matching your 'About Me' button orange */
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: right 0.5s ease-in-out;
+  z-index: 1000;
+}
+
+/* Class to trigger the slide-in */
+.side-popup.active {
+  right: 30px;
+}
+
+.popup-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}

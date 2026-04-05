@@ -384,3 +384,35 @@ li {
 .view-link:hover {
     text-decoration: underline;
 }
+/* Container to push everything to the left but keep it tidy */
+.about-section {
+    text-align: left;
+    max-width: 900px; /* Limits width so lines aren't too long to read */
+    margin-left: 8%;  /* Creates that nice left-side alignment */
+    padding: 60px 20px;
+    font-family: 'Inter', sans-serif; /* Or your preferred clean font */
+}
+
+/* Big, Bold, Black Heading */
+.about-section h1 {
+    color: #000000;
+    font-size: 4.5rem; /* Large impact size */
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+/* Bigger, readable body text */
+.about-content p {
+    color: #333;
+    font-size: 1.3rem; /* Larger than standard for better readability */
+    line-height: 1.8;   /* Adds space between lines */
+    margin-bottom: 25px;
+}
+
+/* Optional: Subtle accent for your location or key stats */
+.highlight {
+    color: #ff6b00; /* Keeping your signature orange */
+    font-weight: bold;
+}
